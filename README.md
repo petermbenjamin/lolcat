@@ -8,15 +8,21 @@
 
 - [Install](#install)
 - [Usage](#usage)
-- [Demo](#demo)
 - [License](#license)
 
 <!-- vim-markdown-toc -->
 
 ## Install
 
+- Via Go: `go get -u -v github.com/petermbenjamin/lolcat`
+- Via [GitHub Releases](https://github.com/petermbenjamin/lolcat/releases)
+
 ## Usage
 
-## Demo
+```
+$ printf 'lolololololololol\n%.0s' {1..100} | lolcat
+```
 
 ## License
+
+MIT
