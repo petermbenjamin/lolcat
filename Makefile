@@ -10,5 +10,5 @@ tag: ## tags project
 	git push origin $(VERSION)
 
 .PHONY: release
-release: tag ## releases project to github releases
+release: ## releases project to github releases
 	goreleaser --rm-dist
